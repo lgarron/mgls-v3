@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "parcel": "^2.0.0-nightly.435",
+    "typescript": "^3.5.3"
+  },
+  "dependencies": {
+    "cubing": "^0.12.17"
+  }
+}

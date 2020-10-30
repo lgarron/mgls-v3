@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+  font-family: sans-serif;
+}
+
+body {
+  height: 100%;
+  display: grid;
+  grid-template-rows: auto 1fr;
+}
+
+body > * {
+  width: 100%;
+}
+
+#cases {
+  max-height: 100%;
+  overflow: scroll;
+  padding: 0.5em;
+  box-sizing: border-box;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+twisty-player.loading {
+  opacity: 0.25;
+}
+
+twisty-player.loading::after {
+  padding: 0.5em 0;
+  font-size: 2em;
+  content: "Waiting for algs to load... (unoptimized)";
+  display: grid;
+  place-content: center;
+}
+
+table td {
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  padding: 0.25em;
+}
+
+/* TODO: make 2D view side stickers larger so that they've more visible at
+smaller scales. */
+table svg {
+  width: 96px;
+  height: 96px;
+}
