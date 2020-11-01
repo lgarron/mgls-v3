@@ -500,4 +500,5 @@ export const clsAlgs = [
   ["K2 J K' J2", "R U2 R2' U' R2 U' R2' U2' R", "⭐⭐⭐⭐", ""],
   // new alg (not on spreadsheet)
   ["", "R U' R' U2 R U2' R' U' R U2' R'", "⭐⭐", ""],
+  ["", "(U') R U R' U2' R U' R' U R U' R' U R U R'", "⭐", ""],
 ];
