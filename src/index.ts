@@ -215,9 +215,9 @@ function setAlg(alg: Sequence) {
       algTr.appendChild(document.createElement("td")).textContent = algInfo[3]; // comments
       firstRow = false;
     }
-    await new Promise((resolve) => {
-      setTimeout(resolve, 0);
-    });
+    // await new Promise((resolve) => {
+    //   setTimeout(resolve, 0);
+    // });
   }
   twistyPlayer.classList.remove("loading");
 })();
