@@ -4,6 +4,6 @@
     "typescript": "^3.5.3"
   },
   "dependencies": {
-    "cubing": "^0.12.17"
+    "cubing": "^0.12.19"
   }
 }
